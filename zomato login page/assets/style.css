@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:large ;
+}
+body{
+    background-image:url(./img/backround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 35%;
+    margin-top: 15%;
+    color:white;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 20%;
+    height: 10%;
+    padding: 20px;
+    line-height: 1.5rem;
+    backdrop-filter: blur(8px);
+}
+.page h1{
+          font-size: 2rem;
+          margin-bottom: 20px;
+          text-align: center;
+          color: limegreen;
+}
+.forgot{
+          text-align: right;
+          float: left;
+          margin-top: -10px;
+          
+}
+.forgot a{
+          color: white;
+          text-decoration: none;
+          font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.remember-me label{
+    font-size: 12px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.input-submit{
+    border-radius: 7px;
+    background-color: limegreen;
+    padding: 7px;
+    margin-top: 1rem;
+}
+.input-submit:hover{
+    color: aliceblue;
+}
+.remember-me{
+    font-size: 9px;
+}
+.register{
+    border-radius: 8px;
+    color: azure;
+}
+.register p{
+    font-size: 13px;
+   
+}
+.register p a{
+   border-radius: 7px;
+}
